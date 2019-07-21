@@ -6,7 +6,6 @@ from .pages.main_page import MainPage
 from .pages.cart_page import CartPage
 
 
-
 @pytest.mark.login_guest
 class TestLoginFromMainPage(object):
     def test_guest_can_go_to_login_page(self, browser):
